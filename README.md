@@ -1,4 +1,4 @@
-## Hello, World! 👋
+## Hello👋
 I'm Anudeep, a Python developer turning curiosity into tools that automate, scrape, and simplify real-world workflows. I build clean, practical command-line and GUI apps that solve everyday problems, and I document every step with precision.
 
 ## 💡 About Me
