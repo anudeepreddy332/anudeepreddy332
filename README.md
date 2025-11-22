@@ -1,4 +1,4 @@
-# Anudeep Reddy  
+# Anudeep Reddy Mutyala
 **Mechanical Engineer → Predictive Maintenance & Industrial Data / ML Engineer**  
 
 I turn vibration, temperature, pressure, and flow data into early warnings and millions worth of prevented downtime.
