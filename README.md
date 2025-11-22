@@ -51,6 +51,7 @@ Outside work, I follow MMA and I listen to deep house.
 
 ### Spaceship Titanic — SQL Case Study
   A full SQL-driven analysis and modeling workflow using PostgreSQL window functions and EDA.
+  
   🔗 Repo: https://github.com/anudeepreddy332/spaceship-titanic-sql
 
 ### Advanced Cloudflare Bypass Scraper
