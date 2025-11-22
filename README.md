@@ -1,118 +1,83 @@
-Anudeep Reddy | Mechanical Engineer with a Focus on Predictive Maintenance & Industrial ML
+# Anudeep Reddy  
+**Mechanical Engineer → Predictive Maintenance & Industrial Data / ML Engineer**  
 
-I turn vibration, temperature, and pressure data into predictive insights, early failure warnings, and hours of saved downtime.
+I turn vibration, temperature, pressure, and flow data into early warnings and millions worth of prevented downtime.
 
-Mechanical engineering foundation combined with production-grade machine learning: pipelines, ETL, feature stores, signal processing, and failure modeling for rotating machinery and industrial assets.
+Masters in Mechanical Engineering + 2 years real automotive design engineering → now 100 % focused on industrial analytics, predictive maintenance, and ML systems that actually work on the plant floor.
 
-Currently exploring remote opportunities in Data Analytics, Predictive Maintenance, Industrial ML, and Condition Monitoring.
+Actively applying for remote/global roles (Data Analyst → Junior ML Engineer → Industrial ML).
 
-⸻
+## What I’m Really Good At
+- Understanding why machines fail before the data even says so  
+- Building complete, clean, production-ready pipelines (not just notebooks)  
+- Physics-first feature engineering on vibration, acoustics, thermals  
+- Delivering dashboards that mechanics and managers actually use  
+- Writing SQL/Python that survives in the real world
 
-💡 About Me
-	•	Mechanical Engineer transitioning into ML-driven industrial analytics
-	•	Strong interest in RUL modeling, signal-based feature engineering, and reliability-focused ML
-	•	Experienced in building full pipelines: ingestion, transformations, database design, and ML experiments
-	•	Based in India, collaborating globally
+## Tech Stack
 
-⸻
+**ML & Signal Processing**  
+scikit-learn · Optuna · temporal + frequency features · weighted RUL loss · leakage-proof validation  
 
-🎓 Skills
+**Data Stack**  
+Python · pandas · NumPy · SciPy · Polars · PostgreSQL (CTEs, window functions, schema design) · Parquet  
 
-Machine Learning & Signal Processing
-	•	scikit-learn pipelines
-	•	feature engineering (temporal, rolling, EMA, FFT, statistical)
-	•	Optuna tuning
-	•	regression/classification for industrial data
-	•	leakage prevention, stratified sampling, weighted loss
+**Visualization**  
+Power BI (DAX + live SQL) · Streamlit · Plotly  
 
-Python & Data Stack
-	•	Python (automation, APIs, CLI tools, async)
-	•	pandas, NumPy, SciPy
-	•	matplotlib, seaborn
-	•	Polars (learning)
+**Other**  
+Git · Linux · Playwright scraping · CLI tools · Docker basics
 
-Databases & ETL
-	•	PostgreSQL (schema design, CTEs, window functions)
-	•	Parquet workflows
-	•	Batch/stream ETL
-	•	Data validation & QA reporting
+## Projects (All Public)
 
-Visualization & Apps
-	•	Power BI (DAX, SQL)
-	•	Streamlit
-	•	Plotly
-	•	FastAPI basics
+1. **Bearing Failure Prediction & RUL – NASA IMS Dataset**  
+   https://github.com/anudeepreddy332/ims-bearing-failure-prediction  
+   MAE = 2.88 hours in the critical degradation zone  
+   Physics-based features, weighted loss for late-stage failures, full PostgreSQL feature store.  
+   This is the exact type of system I want to build and scale in industry.
 
-Scraping & Automation
-	•	Playwright
-	•	curl_cffi
-	•	Cloudscraper
-	•	Cloudflare bypass methods
-	•	Selenium basics
+2. **Spaceship Titanic – Pure SQL Analytics Workflow**  
+   https://github.com/anudeepreddy332/spaceship-titanic-sql  
+   100 % PostgreSQL (CTEs, window functions, advanced joins).  
+   Proof I can deliver insights even when Python isn’t allowed.
 
-⸻
+3. **Advanced Cloudflare-Bypass People Search Scraper**  
+   https://github.com/anudeepreddy332/-Advanced-People-Search-Scraper-Cloudflare-Bypass-  
+   Playwright + curl_cffi + undetected-chromedriver. Works against the toughest anti-bot systems.
 
-🚀 Featured Projects
+4. **TSLA Stock Price Alert (Twilio SMS)**  
+   https://github.com/anudeepreddy332/stock_price_alert  
+   Live tracking with instant SMS alerts – clean, reliable automation.
 
-Bearing Failure Prediction & RUL
+5. **Smart Job Search CLI (SerpAPI)**  
+   https://github.com/anudeepreddy332/smart-job-cli  
+   Built while job hunting. Filters, exports to CSV, actually useful.
 
-Repo: https://github.com/anudeepreddy332/ims-bearing-failure-prediction
+6. **Currency Converter CLI with Historical Logging**  
+   https://github.com/anudeepreddy332/currency_converter_cli  
+   Real-time rates, CSV history, input validation – production-quality CLI.
 
-A complete predictive maintenance system built on the NASA IMS dataset.
-Highlights:
-	•	Achieved MAE of 2.88 hours in the critical degradation zone
-	•	Weighted loss for late-stage failures
-	•	Temporal and physics-inspired feature engineering (EMA, slopes, rolling stats)
-	•	PostgreSQL feature store
-	•	Clean experiment tracking and reproducibility
+## Professional Background
 
-⸻
+Masters in Mechanical Engineering  
+2 years Design Engineering – Automotive sector
 
-Spaceship Titanic – SQL-Only Analytics Workflow
+Designed and released critical underbody and interior components (side frames, damper housings, bumpers) using CATIA V5.  
+Responsible for NVH, crash safety, durability, DFM, and cost targets.  
+Worked closely with styling, suppliers, and manufacturing teams from concept to SOP.  
+Delivered real cost reductions and packaging improvements on bumper programs.
 
-Repo: https://github.com/anudeepreddy332/spaceship-titanic-sql
+## Open To
+- Data Analyst (industrial/manufacturing focus)  
+- Junior ML Engineer  
+- Industrial Data Scientist  
+- Predictive Maintenance / ML roles  
 
-An end-to-end analytical workflow designed entirely in PostgreSQL using CTEs, window functions, and SQL-based feature logic. Demonstrates strong data analysis skills even without Python.
+Global remote preferred · available to start immediately
 
-⸻
+## Let’s Connect
+Email: anudeepreddy332@gmail.com  
+LinkedIn: https://www.linkedin.com/in/anudeep-reddy-mutyala/  
+Portfolio: https://themachinist.org/
 
-Advanced Cloudflare Bypass Scraper
-
-Robust scraper capable of bypassing heavy anti-bot systems.
-
-Repo:
-https://github.com/anudeepreddy332/-Advanced-People-Search-Scraper-Cloudflare-Bypass-
-
-⸻
-
-Additional Python Projects
-	•	Currency Converter CLI: API-powered converter with CSV logging
-	•	Smart Job CLI: Job scraping with SerpAPI
-	•	Book Scraper CLI: Page-by-page product scraping
-	•	TSLA Stock Price Alert: SMS alerts with Twilio
-	•	German Flashcards: Tkinter flashcard trainer
-	•	Weather + Rain Alert: API-based notification system
-
-⸻
-
-📘 Background
-	•	M.Tech in Mechanical Engineering
-	•	2 years experience in automotive design engineering (tolerances, FMEA, CAD, real hardware exposure)
-	•	Skilled communicator, comfortable with async remote workflows
-
-⸻
-
-🤝 If You’re Looking For Someone Who
-	•	Understands machine physics and ML
-	•	Builds production-ready pipelines, not just notebooks
-	•	Can translate FFTs, sensor behavior, and degradation patterns into actionable insights
-	•	Communicates clearly with both engineering teams and data leads
-
-I’m open to roles in Data Analytics, Predictive Maintenance, Industrial ML, ML Engineering, and Reliability Analytics.
-
-⸻
-
-🌐 Let’s Connect
-	•	Email: anudeepreddy332@gmail.com
-	•	LinkedIn: (add your link)
-	•	Portfolio: (optional link to themachinist.org)
+I reply fast. Drop me a message or shoot an email – looking forward to it.
