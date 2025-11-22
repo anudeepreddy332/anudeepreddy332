@@ -1,103 +1,118 @@
-## Hello👋
-I’m Anudeep, a Mechanical Engineer turned ML-Focused Engineer working on predictive maintenance, industrial analytics, and high-impact machine learning systems for real mechanical and industrial problems.
+Anudeep Reddy | Mechanical Engineer with a Focus on Predictive Maintenance & Industrial ML
 
-I focus on building complete pipelines, not just models: ETL, feature engineering grounded in physics, PostgreSQL data architecture, reproducible ML experiments, and real evaluation strategies that actually hold up in production.
+I turn vibration, temperature, and pressure data into predictive insights, early failure warnings, and hours of saved downtime.
 
-Outside work, I follow MMA and I listen to deep house.
+Mechanical engineering foundation combined with production-grade machine learning: pipelines, ETL, feature stores, signal processing, and failure modeling for rotating machinery and industrial assets.
 
-## 💡 About Me
-    • Focused on bringing machine learning into mechanical and industrial engineering
-    • Strong interest in predictive maintenance, condition monitoring, and RUL modelling
-    • Experienced in building end-to-end systems: data ingestion, feature stores, model training, tuning, and dashboards
-    • Based in India and open to global remote roles (Data Analyst, ML Engineer, Industrial Analytics)
+Currently exploring remote opportunities in Data Analytics, Predictive Maintenance, Industrial ML, and Condition Monitoring.
 
-## 🎓 Skills
-  
-  ### Machine Learning
-    • sklearn pipelines
-    • feature engineering (temporal, signal-based, statistical)
-    • hyperparameter tuning with Optuna
-    • regression/classification for industrial data
-    • leakage prevention, stratified sampling, weighted loss optimization
+⸻
 
-  ### Python & Data
-    • Python (CLI tools, automation, APIs, async workflows)
-    • pandas, numpy, matplotlib, seaborn
-    • PostgreSQL, schema design, SQL queries, migrations
-    • Parquet pipelines, ETL, batch processing
+💡 About Me
+	•	Mechanical Engineer transitioning into ML-driven industrial analytics
+	•	Strong interest in RUL modeling, signal-based feature engineering, and reliability-focused ML
+	•	Experienced in building full pipelines: ingestion, transformations, database design, and ML experiments
+	•	Based in India, collaborating globally
 
-  ### Scraping & Automation
-    • Playwright
-    • Selenium
-    • curl_cffi
-    • Cloudscraper
-    • Cloudflare-bypass automation
+⸻
 
-  ### Dashboards & Apps
-    • Streamlit
-    • FastAPI
-    • Power BI
+🎓 Skills
 
-## 🚀 Featured Projects
+Machine Learning & Signal Processing
+	•	scikit-learn pipelines
+	•	feature engineering (temporal, rolling, EMA, FFT, statistical)
+	•	Optuna tuning
+	•	regression/classification for industrial data
+	•	leakage prevention, stratified sampling, weighted loss
 
-### Bearing Failure Prediction System (Critical Zone MAE: 2.88 hours)
-    A complete predictive maintenance system with:
-        • PostgreSQL feature store
-        • temporal features (EMA, slopes, rolling stats)
-        • weighted loss for critical failures
-        • stratified RUL sampling
-        • reproducible model registry
-🔗 Repo: https://github.com/anudeepreddy332/ims-bearing-failure-prediction
+Python & Data Stack
+	•	Python (automation, APIs, CLI tools, async)
+	•	pandas, NumPy, SciPy
+	•	matplotlib, seaborn
+	•	Polars (learning)
 
+Databases & ETL
+	•	PostgreSQL (schema design, CTEs, window functions)
+	•	Parquet workflows
+	•	Batch/stream ETL
+	•	Data validation & QA reporting
 
-### Spaceship Titanic — SQL Case Study
-  A full SQL-driven analysis and modeling workflow using PostgreSQL window functions and EDA.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/spaceship-titanic-sql
+Visualization & Apps
+	•	Power BI (DAX, SQL)
+	•	Streamlit
+	•	Plotly
+	•	FastAPI basics
 
+Scraping & Automation
+	•	Playwright
+	•	curl_cffi
+	•	Cloudscraper
+	•	Cloudflare bypass methods
+	•	Selenium basics
 
-### Advanced Cloudflare Bypass Scraper
-  Robust people-search scraper using Playwright, curl_cffi, undetected-chromedriver, and anti-bot evasion logic.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/-Advanced-People-Search-Scraper-Cloudflare-Bypass-
-  
+⸻
 
-### Currency Converter CLI
-  Real-time API conversion, historical CSV logging, currency validation.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/currency_converter_cli
+🚀 Featured Projects
 
+Bearing Failure Prediction & RUL
 
-### Smart Job CLI
-  Google job scraping via SerpAPI with CSV export.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/smart-job-cli
+Repo: https://github.com/anudeepreddy332/ims-bearing-failure-prediction
 
+A complete predictive maintenance system built on the NASA IMS dataset.
+Highlights:
+	•	Achieved MAE of 2.88 hours in the critical degradation zone
+	•	Weighted loss for late-stage failures
+	•	Temporal and physics-inspired feature engineering (EMA, slopes, rolling stats)
+	•	PostgreSQL feature store
+	•	Clean experiment tracking and reproducibility
 
-### Book Scraper CLI
-  Multi-page scraper from books.toscrape.com with CSV export.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/book_scraper_cli
+⸻
 
+Spaceship Titanic – SQL-Only Analytics Workflow
 
-### TSLA Stock Price Alert
-  Tracks Tesla stock and sends SMS alerts via Twilio.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/stock_price_alert
+Repo: https://github.com/anudeepreddy332/spaceship-titanic-sql
 
+An end-to-end analytical workflow designed entirely in PostgreSQL using CTEs, window functions, and SQL-based feature logic. Demonstrates strong data analysis skills even without Python.
 
-### Learn German Flashcards (Tkinter)
-  DE ➝ EN flashcard trainer with persistence.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/learn_DE_to_EN_flashcard_app
+⸻
 
+Advanced Cloudflare Bypass Scraper
 
-### Weather + Rain Alert
-  Weather and rain alerts using OpenWeather + Twilio.
-  
-  🔗 Repo: https://github.com/anudeepreddy332/rain_alert
+Robust scraper capable of bypassing heavy anti-bot systems.
 
+Repo:
+https://github.com/anudeepreddy332/-Advanced-People-Search-Scraper-Cloudflare-Bypass-
 
-## 🌐 Let’s Connect
-  • Available for freelance and full-time work in Python, ML, and industrial data analytics
-  • Email: anudeepreddy332@gmail.com
+⸻
+
+Additional Python Projects
+	•	Currency Converter CLI: API-powered converter with CSV logging
+	•	Smart Job CLI: Job scraping with SerpAPI
+	•	Book Scraper CLI: Page-by-page product scraping
+	•	TSLA Stock Price Alert: SMS alerts with Twilio
+	•	German Flashcards: Tkinter flashcard trainer
+	•	Weather + Rain Alert: API-based notification system
+
+⸻
+
+📘 Background
+	•	M.Tech in Mechanical Engineering
+	•	2 years experience in automotive design engineering (tolerances, FMEA, CAD, real hardware exposure)
+	•	Skilled communicator, comfortable with async remote workflows
+
+⸻
+
+🤝 If You’re Looking For Someone Who
+	•	Understands machine physics and ML
+	•	Builds production-ready pipelines, not just notebooks
+	•	Can translate FFTs, sensor behavior, and degradation patterns into actionable insights
+	•	Communicates clearly with both engineering teams and data leads
+
+I’m open to roles in Data Analytics, Predictive Maintenance, Industrial ML, ML Engineering, and Reliability Analytics.
+
+⸻
+
+🌐 Let’s Connect
+	•	Email: anudeepreddy332@gmail.com
+	•	LinkedIn: (add your link)
+	•	Portfolio: (optional link to themachinist.org)
