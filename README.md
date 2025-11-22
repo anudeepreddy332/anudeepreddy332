@@ -6,10 +6,10 @@ I focus on building complete pipelines, not just models: ETL, feature engineerin
 Outside work, I follow MMA and I listen to deep house.
 
 ## 💡 About Me
-  • Focused on bringing machine learning into mechanical and industrial engineering
-  • Strong interest in predictive maintenance, condition monitoring, and RUL modelling
-  • Experienced in building end-to-end systems: data ingestion, feature stores, model training, tuning, and dashboards
-  • Based in India and open to global remote roles (Data Analyst, ML Engineer, Industrial Analytics)
+    • Focused on bringing machine learning into mechanical and industrial engineering
+    • Strong interest in predictive maintenance, condition monitoring, and RUL modelling
+    • Experienced in building end-to-end systems: data ingestion, feature stores, model training, tuning, and dashboards
+    • Based in India and open to global remote roles (Data Analyst, ML Engineer, Industrial Analytics)
 
 ## 🎓 Skills
   
