@@ -13,6 +13,10 @@ I'm Anudeep, a Python developer turning curiosity into tools that automate, scra
 
 ## 🚀 Featured Projects
 
+### Bearing Failure Prediction System
+Production-grade ML system predicting bearing RUL with 2.88-hour accuracy in critical failure zones.
+🔗 [GitHub Repo](https://github.com/anudeepreddy332/ims-bearing-failure-prediction)
+
 ### 📈 Currency Converter CLI
 Converts between currencies using real-time API data. Includes historical CSV logging, currency validation, and CLI interface.
 🔗 [GitHub Repo](https://github.com/anudeepreddy332/currency_converter_cli)
