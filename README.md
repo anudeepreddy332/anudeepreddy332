@@ -41,13 +41,13 @@ Outside work, I follow MMA and I listen to deep house.
 ## 🚀 Featured Projects
 
 ### Bearing Failure Prediction System (Critical Zone MAE: 2.88 hours)
-  A complete predictive maintenance system with:
-    • PostgreSQL feature store
-    • temporal features (EMA, slopes, rolling stats)
-    • weighted loss for critical failures
-    • stratified RUL sampling
-    • reproducible model registry
-  🔗 Repo: https://github.com/anudeepreddy332/ims-bearing-failure-prediction
+      A complete predictive maintenance system with:
+        • PostgreSQL feature store
+        • temporal features (EMA, slopes, rolling stats)
+        • weighted loss for critical failures
+        • stratified RUL sampling
+        • reproducible model registry
+      🔗 Repo: https://github.com/anudeepreddy332/ims-bearing-failure-prediction
 
 ### Spaceship Titanic — SQL Case Study
   A full SQL-driven analysis and modeling workflow using PostgreSQL window functions and EDA.
