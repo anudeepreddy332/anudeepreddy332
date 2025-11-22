@@ -56,30 +56,37 @@ Outside work, I follow MMA and I listen to deep house.
 
 ### Advanced Cloudflare Bypass Scraper
   Robust people-search scraper using Playwright, curl_cffi, undetected-chromedriver, and anti-bot evasion logic.
+  
   🔗 Repo: https://github.com/anudeepreddy332/-Advanced-People-Search-Scraper-Cloudflare-Bypass-
   
 ### Currency Converter CLI
   Real-time API conversion, historical CSV logging, currency validation.
+  
   🔗 Repo: https://github.com/anudeepreddy332/currency_converter_cli
 
 ### Smart Job CLI
   Google job scraping via SerpAPI with CSV export.
+  
   🔗 Repo: https://github.com/anudeepreddy332/smart-job-cli
 
 ### Book Scraper CLI
   Multi-page scraper from books.toscrape.com with CSV export.
+  
   🔗 Repo: https://github.com/anudeepreddy332/book_scraper_cli
 
 ### TSLA Stock Price Alert
   Tracks Tesla stock and sends SMS alerts via Twilio.
+  
   🔗 Repo: https://github.com/anudeepreddy332/stock_price_alert
 
 ### Learn German Flashcards (Tkinter)
   DE ➝ EN flashcard trainer with persistence.
+  
   🔗 Repo: https://github.com/anudeepreddy332/learn_DE_to_EN_flashcard_app
 
 ### Weather + Rain Alert
   Weather and rain alerts using OpenWeather + Twilio.
+  
   🔗 Repo: https://github.com/anudeepreddy332/rain_alert
 
 ## 🌐 Let’s Connect
