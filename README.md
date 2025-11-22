@@ -41,7 +41,7 @@ Outside work, I follow MMA and I listen to deep house.
 ## 🚀 Featured Projects
 
 ### Bearing Failure Prediction System (Critical Zone MAE: 2.88 hours)
-A complete predictive maintenance system with:
+    A complete predictive maintenance system with:
         • PostgreSQL feature store
         • temporal features (EMA, slopes, rolling stats)
         • weighted loss for critical failures
