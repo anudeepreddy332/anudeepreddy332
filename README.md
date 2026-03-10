@@ -5,7 +5,7 @@ I turn vibration, temperature, pressure, and flow data into early warnings and m
 
 Masters in Mechanical Engineering + 2 years real automotive design engineering → now 100 % focused on industrial analytics, predictive maintenance, and ML systems that actually work on the plant floor.
 
-Actively applying for remote/global roles (Data Analyst → Junior ML Engineer → Industrial ML).
+Actively applying for remote/global roles (Data Scientist →  ML Engineer).
 
 ## What I’m Really Good At
 - Understanding why machines fail before the data even says so  
