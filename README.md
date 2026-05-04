@@ -1,83 +1,65 @@
 # Anudeep Reddy Mutyala
-**Mechanical Engineer → Predictive Maintenance & Industrial Data / ML Engineer**  
+**AI Engineer — Agentic Systems & LLM Applications**  
+Hyderabad, India | Open to Remote (US / Global)  
+[themachinist.org](https://themachinist.org) · [linkedin.com/in/anudeep-reddy-mutyala](https://linkedin.com/in/anudeep-reddy-mutyala) · [anudeepreddy332@gmail.com](mailto:anudeepreddy332@gmail.com)
 
-I turn vibration, temperature, pressure, and flow data into early warnings and millions worth of prevented downtime.
+---
 
-Masters in Mechanical Engineering + 2 years real automotive design engineering → now 100 % focused on industrial analytics, predictive maintenance, and ML systems that actually work on the plant floor.
+## What I Build
 
-Actively applying for remote/global roles (Data Scientist →  ML Engineer).
+AI engineer focused on agentic systems and LLM-based pipelines — tool calling, retrieval-augmented generation (RAG), LangGraph state machines, and human-in-the-loop workflows. I build with evaluation-first thinking: every system I ship has a benchmark harness, regression tests, and documented failure modes.
 
-## What I’m Really Good At
-- Understanding why machines fail before the data even says so  
-- Building complete, clean, production-ready pipelines (not just notebooks)  
-- Physics-first feature engineering on vibration, acoustics, thermals  
-- Delivering dashboards that mechanics and managers actually use  
-- Writing SQL/Python that survives in the real world
+Background in mechanical engineering, automotive design, and operations. I bring a different lens to system reliability and failure reasoning than most people coming purely from software.
+
+---
+
+## Agentic AI Projects
+
+**[Code Review & Auto-Fix Agent](https://github.com/anudeepreddy332/code-agent)** · [themachinist.org/code-agent](https://themachinist.org/code-agent)  
+LangGraph · LangSmith · Python subprocess sandbox  
+Execute → diagnose → patch → re-execute loop with bounded reflexion (max 5 iterations), per-iteration cost gating, and human-in-the-loop approval checkpoint. **95% fix rate on 20-script benchmark** · mean 2.3 iterations · ~$0.0006 per run. Resilience-tested against timeouts, cost ceiling violations, and invalid API keys.
+
+**[Knowledge Agent — Hybrid RAG System](https://github.com/anudeepreddy332/knowledge-agent)** · [themachinist.org/knowledge-agent](https://themachinist.org/knowledge-agent)  
+ChromaDB · BM25 · sentence-transformers  
+Hybrid retrieval pipeline: BM25 + dense search fused via Reciprocal Rank Fusion → cross-encoder reranking (ms-marco-MiniLM-L-6-v2). Two-stage architecture (20 candidates → top 5). **92% accuracy and 100% tool-routing accuracy** on adversarial test cases. Claim verification with source grounding and persistent JSON memory layer.
+
+**[CLI Research Agent](https://github.com/anudeepreddy332/cli-research-agent)** · [themachinist.org/cli-research-agent](https://themachinist.org/cli-research-agent)  
+DeepSeek API · Tavily · httpx · BeautifulSoup  
+Raw agent execution loop built from scratch using OpenAI-compatible tool-calling protocol — no frameworks — to understand the mechanics before abstracting them. Benchmarked across 10 real-world queries. Later rebuilt with LangGraph to compare raw loop vs. framework execution (equivalent output quality, improved state traceability).
+
+---
+
+## ML & Data Engineering Projects
+
+**[Silent Recall Detection System](https://github.com/anudeepreddy332/nhtsa-silent-recall-detection-system)**  
+Automated ETL pipeline on 10,000+ NHTSA complaint and recall records. Identified 28 vehicle models with complaint-to-recall ratios exceeding 50:1.
+
+**[Production Line Defect Analytics](https://github.com/anudeepreddy332/bosch-production-line-defect-analysis)**  
+1.18M+ records, 4,268 variables. Feature space reduced ~80%. Single station identified with 7.8× higher failure probability. Storage optimized 60GB → 1.77GB Parquet.
+
+**[Bearing Failure Prediction & RUL](https://github.com/anudeepreddy332/bearing-failure-prediction)**  
+984 vibration recordings at 20,480 Hz. Regression model R² = 0.985. Late-stage prediction error reduced from ~30 hours to 2.88 hours via weighted loss optimization.
+
+---
 
 ## Tech Stack
 
-**ML & Signal Processing**  
-scikit-learn · Optuna · temporal + frequency features · weighted RUL loss · leakage-proof validation  
+**LLM & Agent Systems:** LangGraph · LangChain · ReAct loops · tool calling · prompt versioning · HITL workflows · OpenAI-compatible APIs  
+**Retrieval & RAG:** ChromaDB · BM25 · dense retrieval · Reciprocal Rank Fusion · cross-encoder reranking  
+**Evaluation & Observability:** Benchmark harnesses · regression suites · LangSmith tracing · structured run logging  
+**Backend & Infrastructure:** Python · FastAPI · async workflows (httpx) · subprocess sandboxing · uv · Git  
+**Search & Data:** Tavily API · BeautifulSoup · pandas · NumPy · PostgreSQL · Parquet
 
-**Data Stack**  
-Python · pandas · NumPy · SciPy · Polars · PostgreSQL (CTEs, window functions, schema design) · Parquet  
+---
 
-**Visualization**  
-Power BI (DAX + live SQL) · Streamlit · Plotly  
+## Background
 
-**Other**  
-Git · Linux · Playwright scraping · CLI tools · Docker basics
+M.S. Mechanical Engineering — Wright State University, Ohio  
+Design Engineer — Honda R&D Americas (2016–2018)  
+Advanced Cicerone (1 of ~230 globally)
 
-## Projects (All Public)
+Non-linear path. Systematic thinker. I've shipped things that had to work — automotive components with NVH, crash, and cost targets, fermentation monitoring systems with real variance, training programs with pass/fail outcomes. That background informs how I approach agent reliability and failure reasoning.
 
-1. **Bearing Failure Prediction & RUL – NASA IMS Dataset**  
-   https://github.com/anudeepreddy332/ims-bearing-failure-prediction  
-   MAE = 2.88 hours in the critical degradation zone  
-   Physics-based features, weighted loss for late-stage failures, full PostgreSQL feature store.  
-   This is the exact type of system I want to build and scale in industry.
+---
 
-2. **Spaceship Titanic – Pure SQL Analytics Workflow**  
-   https://github.com/anudeepreddy332/spaceship-titanic-sql  
-   100 % PostgreSQL (CTEs, window functions, advanced joins).  
-   Proof I can deliver insights even when Python isn’t allowed.
-
-3. **Advanced Cloudflare-Bypass People Search Scraper**  
-   https://github.com/anudeepreddy332/-Advanced-People-Search-Scraper-Cloudflare-Bypass-  
-   Playwright + curl_cffi + undetected-chromedriver. Works against the toughest anti-bot systems.
-
-4. **TSLA Stock Price Alert (Twilio SMS)**  
-   https://github.com/anudeepreddy332/stock_price_alert  
-   Live tracking with instant SMS alerts – clean, reliable automation.
-
-5. **Smart Job Search CLI (SerpAPI)**  
-   https://github.com/anudeepreddy332/smart-job-cli  
-   Built while job hunting. Filters, exports to CSV, actually useful.
-
-6. **Currency Converter CLI with Historical Logging**  
-   https://github.com/anudeepreddy332/currency_converter_cli  
-   Real-time rates, CSV history, input validation – production-quality CLI.
-
-## Professional Background
-
-Masters in Mechanical Engineering  
-2 years Design Engineering – Automotive sector
-
-Designed and released critical underbody and interior components (side frames, damper housings, bumpers) using CATIA V5.  
-Responsible for NVH, crash safety, durability, DFM, and cost targets.  
-Worked closely with styling, suppliers, and manufacturing teams from concept to SOP.  
-Delivered real cost reductions and packaging improvements on bumper programs.
-
-## Open To
-- Data Analyst (industrial/manufacturing focus)  
-- Junior ML Engineer  
-- Industrial Data Scientist  
-- Predictive Maintenance / ML roles  
-
-Global remote preferred · available to start immediately
-
-## Let’s Connect
-Email: anudeepreddy332@gmail.com  
-LinkedIn: https://www.linkedin.com/in/anudeep-reddy-mutyala/  
-Portfolio: https://themachinist.org/
-
-I reply fast. Drop me a message or shoot an email – looking forward to it.
+*Available immediately. Drop a message or email — I reply fast.*
