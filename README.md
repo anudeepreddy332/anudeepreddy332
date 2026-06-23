@@ -7,13 +7,18 @@ Hyderabad, India | Open to Remote (US / Global)
 
 ## What I Build
 
-AI engineer focused on agentic systems and LLM-based pipelines — tool calling, retrieval-augmented generation (RAG), LangGraph state machines, and human-in-the-loop workflows. I build with evaluation-first thinking: every system I ship has a benchmark harness, regression tests, and documented failure modes.
+AI engineer focused on agentic systems and LLM-based pipelines — tool calling, retrieval-augmented generation (RAG), LangGraph state machines, claim-level grounding verification, and human-in-the-loop workflows. I build with evaluation-first thinking: every system I ship has a benchmark harness, regression tests, and documented failure modes.
 
 Background in mechanical engineering, automotive design, and operations. I bring a different lens to system reliability and failure reasoning than most people coming purely from software.
 
 ---
 
 ## Agentic AI Projects
+
+**[Content Agent — Grounded Article Pipeline](https://github.com/anudeepreddy332/content-agent)** · [themachinist.org/content-agent](https://themachinist.org/content-agent) · [▶ Live Demo](https://www.youtube.com/watch?v=gJttMm90ugM)  
+LangGraph · Qdrant · BM25 + dense + RRF · LangSmith · EC2 + Caddy + Netlify  
+End-to-end agentic pipeline: topic → hybrid retrieval (web + knowledge base) → structured draft → **claim-level grounding verification** (every factual claim marked source-verified or unverifiable, with confidence scoring) → reflection / self-critique with automatic re-run below cutoff → human-in-the-loop approval gate with targeted-feedback routing → HTML generation → live publish. **[100% recall@3 on a 30-query golden eval set · 96.7% recall@1 · 
+86.7% concept hit rate · evaluated against Qdrant hybrid retrieval (dense + BM25 + RRF)]**. Per-node telemetry (latency, token cost) via LangSmith tracing. Deployed on EC2 behind Caddy, publishing to Netlify via Git branch push.
 
 **[Code Review & Auto-Fix Agent](https://github.com/anudeepreddy332/code-agent)** · [themachinist.org/code-agent](https://themachinist.org/code-agent)  
 LangGraph · LangSmith · Python subprocess sandbox  
@@ -45,7 +50,7 @@ Automated ETL pipeline on 10,000+ NHTSA complaint and recall records. Identified
 ## Tech Stack
 
 **LLM & Agent Systems:** LangGraph · LangChain · ReAct loops · tool calling · prompt versioning · HITL workflows · OpenAI-compatible APIs  
-**Retrieval & RAG:** ChromaDB · BM25 · dense retrieval · Reciprocal Rank Fusion · cross-encoder reranking  
+**Retrieval & RAG:** ChromaDB · Qdrant · BM25 · dense retrieval · Reciprocal Rank Fusion · cross-encoder reranking  
 **Evaluation & Observability:** Benchmark harnesses · regression suites · LangSmith tracing · structured run logging  
 **Backend & Infrastructure:** Python · FastAPI · async workflows (httpx) · subprocess sandboxing · uv · Git  
 **Search & Data:** Tavily API · BeautifulSoup · pandas · NumPy · PostgreSQL · Parquet
