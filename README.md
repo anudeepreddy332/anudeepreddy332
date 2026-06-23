@@ -17,22 +17,18 @@ Background in mechanical engineering, automotive design, and operations. I bring
 
 **[Content Agent — Grounded Article Pipeline](https://github.com/anudeepreddy332/content-agent)** · [themachinist.org/content-agent](https://themachinist.org/content-agent) · [▶ Live Demo](https://www.youtube.com/watch?v=gJttMm90ugM)  
 LangGraph · Qdrant · BM25 + dense + RRF · LangSmith · EC2 + Caddy + Netlify  
-
 End-to-end agentic pipeline: topic → hybrid retrieval (web + knowledge base) → structured draft → **claim-level grounding verification** (every factual claim marked source-verified or unverifiable, with confidence scoring) → reflection / self-critique with automatic re-run below cutoff → human-in-the-loop approval gate with targeted-feedback routing → HTML generation → live publish. **100% recall@3 on a 30-query golden eval set · 96.7% recall@1 · 86.7% concept hit rate · evaluated against Qdrant hybrid retrieval (dense + BM25 + RRF)**. Per-node telemetry (latency, token cost) via LangSmith tracing. Deployed on EC2 behind Caddy, publishing to Netlify via Git branch push.
 
 **[Code Review & Auto-Fix Agent](https://github.com/anudeepreddy332/code-agent)** · [themachinist.org/code-agent](https://themachinist.org/code-agent)  
 LangGraph · LangSmith · Python subprocess sandbox  
-
 Execute → diagnose → patch → re-execute loop with bounded reflexion (max 5 iterations), per-iteration cost gating, and human-in-the-loop approval checkpoint. **95% fix rate on 20-script benchmark** · mean 2.3 iterations · ~$0.0006 per run. Resilience-tested against timeouts, cost ceiling violations, and invalid API keys.
 
 **[Knowledge Agent — Hybrid RAG System](https://github.com/anudeepreddy332/knowledge-agent)** · [themachinist.org/knowledge-agent](https://themachinist.org/knowledge-agent)  
 ChromaDB · BM25 · sentence-transformers  
-
 Hybrid retrieval pipeline: BM25 + dense search fused via Reciprocal Rank Fusion → cross-encoder reranking (ms-marco-MiniLM-L-6-v2). Two-stage architecture (20 candidates → top 5). **92% accuracy and 100% tool-routing accuracy** on adversarial test cases. Claim verification with source grounding and persistent JSON memory layer.
 
 **[CLI Research Agent](https://github.com/anudeepreddy332/cli-research-agent)** · [themachinist.org/cli-research-agent](https://themachinist.org/cli-research-agent)  
 DeepSeek API · Tavily · httpx · BeautifulSoup  
-
 Raw agent execution loop built from scratch using OpenAI-compatible tool-calling protocol — no frameworks — to understand the mechanics before abstracting them. Benchmarked across 10 real-world queries. Later rebuilt with LangGraph to compare raw loop vs. framework execution (equivalent output quality, improved state traceability).
 
 ---
