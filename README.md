@@ -38,8 +38,8 @@ Raw agent execution loop built from scratch using OpenAI-compatible tool-calling
 **[Silent Recall Detection System](https://github.com/anudeepreddy332/nhtsa-silent-recall-detection-system)**  
 Automated ETL pipeline on 10,000+ NHTSA complaint and recall records. Identified 28 vehicle models with complaint-to-recall ratios exceeding 50:1.
 
-**[Production Line Defect Analytics](https://github.com/anudeepreddy332/bosch-production-line-defect-analysis)**  
-1.18M+ records, 4,268 variables. Feature space reduced ~80%. Single station identified with 7.8× higher failure probability. Storage optimized 60GB → 1.77GB Parquet.
+**[Bosch Production Line Defect Analytics](https://github.com/anudeepreddy332/bosch-production-line-defect-analysis)**  
+End-to-end production ML system built on 1.18M manufacturing records and 4,268 variables. Engineered leakage-safe evaluation, reproducible inference, CI/CD, and a public dashboard with documentation for production-grade model governance.
 
 **[Bearing Failure Prediction & RUL](https://github.com/anudeepreddy332/bearing-failure-prediction)**  
 984 vibration recordings at 20,480 Hz. Regression model R² = 0.985. Late-stage prediction error reduced from ~30 hours to 2.88 hours via weighted loss optimization.
